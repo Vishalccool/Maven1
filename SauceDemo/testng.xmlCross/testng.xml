@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.sauceDemo.TestCLasses.BaseClass"/>
+      <class name="com.sauceDemo.TestCLasses.TC01VerifyLoginFunctioanlity"/>
+      <class name="com.sauceDemo.TestCLasses.TC02VerifyLogoutFunctionality"/>
+      <class name="com.sauceDemo.TestCLasses.TC03VerifyAddtoCartFunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

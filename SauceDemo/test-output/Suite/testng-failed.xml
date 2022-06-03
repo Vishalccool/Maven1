@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="chromeTest(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.sauceDemo.TestCLasses.TC03VerifyAddtoCartFunctionality">
+        <methods>
+          <include name="verifyAddtocart"/>
+          <include name="logoutMethod"/>
+          <include name="setupUpMethod"/>
+        </methods>
+      </class> <!-- com.sauceDemo.TestCLasses.TC03VerifyAddtoCartFunctionality -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+  <test thread-count="5" name="edgeTest(failed)">
+    <parameter name="browserName" value="edge"/>
+    <classes>
+      <class name="com.sauceDemo.TestCLasses.TC01VerifyLoginFunctioanlity">
+        <methods>
+          <include name="checktitle"/>
+          <include name="logoutMethod"/>
+          <include name="setupUpMethod"/>
+        </methods>
+      </class> <!-- com.sauceDemo.TestCLasses.TC01VerifyLoginFunctioanlity -->
+      <class name="com.sauceDemo.TestCLasses.TC02VerifyLogoutFunctionality">
+        <methods>
+          <include name="Verifylogout"/>
+          <include name="logoutMethod"/>
+          <include name="setupUpMethod"/>
+        </methods>
+      </class> <!-- com.sauceDemo.TestCLasses.TC02VerifyLogoutFunctionality -->
+      <class name="com.sauceDemo.TestCLasses.TC03VerifyAddtoCartFunctionality">
+        <methods>
+          <include name="verifyAddtocart"/>
+          <include name="logoutMethod"/>
+          <include name="setupUpMethod"/>
+        </methods>
+      </class> <!-- com.sauceDemo.TestCLasses.TC03VerifyAddtoCartFunctionality -->
+    </classes>
+  </test> <!-- edgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
